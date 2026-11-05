@@ -22,6 +22,17 @@ Community-driven social development event platform - Backend API.
 - `GET /api/joined/count/:eventId` - Joined count + volunteers
 - `DELETE /api/joined/:eventId` - Leave event (JWT)
 
+
+## API Endpoints
+- GET /api/events - All upcoming events
+- GET /api/events/recent - Recent 6 events
+- POST /api/events - Create event (JWT)
+- PUT /api/events/:id - Update event (JWT)
+- DELETE /api/events/:id - Delete event (JWT)
+- POST /api/joined - Join event (JWT)
+- GET /api/joined/:email - My joined events (JWT)
+
+
 ## Run Locally
 ```bash
 npm install

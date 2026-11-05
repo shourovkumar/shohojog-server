@@ -77,7 +77,7 @@ app.post('/api/auth/token', (req, res) => {
   res.send({ token });
 });
 
-// GET All Upcoming Events - Search + Type Filter (Backend)
+// Get all upcoming events with search and type filter
 app.get('/api/events', async (req, res) => {
   try {
     const { search = '', type = '' } = req.query;

@@ -33,6 +33,13 @@ Community-driven social development event platform - Backend API.
 - GET /api/joined/:email - My joined events (JWT)
 
 
+## Features
+- JWT protected event create, update, delete
+- Join event with duplicate protection
+- Upcoming events with search and filter
+- My events and joined events APIs
+
+
 ## Run Locally
 ```bash
 npm install

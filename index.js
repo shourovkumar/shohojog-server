@@ -47,7 +47,7 @@ joinedSchema.index({ eventId: 1, userEmail: 1 }, { unique: true });
 
 const Joined = mongoose.model('Joined', joinedSchema);
 
-// JWT Verify Middleware
+// JWT Middleware - Protected routes er jonno token check kore
 const verifyToken = (req, res, next) => {
   const authHeader = req.headers.authorization;
   if (!authHeader) {

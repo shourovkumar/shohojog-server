@@ -1,3 +1,4 @@
+// Shohojog Server - Social Development Events Platform
 
 require('dotenv').config();
 const express = require('express');

@@ -1,7 +1,7 @@
 {
   "name": "shohojog-server",
   "version": "1.0.0",
-  "description": "Shohojog - Social Development Events Platform Server",
+  "description": "Shohojog Server - Social Development Events Platform API",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
